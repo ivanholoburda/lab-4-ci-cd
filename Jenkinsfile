@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'add here your url', credentialsId: 'add credentialsId'
-            }
+                git url: 'https://github.com/ivanholoburda/lab-4-ci-cd.git'            }
         }
         
         stage('Build') {
